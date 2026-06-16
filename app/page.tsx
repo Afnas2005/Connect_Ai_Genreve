@@ -5,13 +5,8 @@ export default function Home() {
         <div className="mx-auto flex min-h-screen w-full max-w-7xl flex-col justify-center px-6 py-16 lg:px-10 xl:px-0">
           <div className="grid items-center gap-10 lg:grid-cols-[1.02fr_0.98fr]">
             <div className="max-w-2xl space-y-8 flex flex-col items-center lg:items-start">
-              <div className="hero-brand-block w-full lg:w-auto lg:items-start">
-                <div className="brand-logo">
-                  <div className="w-20 h-20 md:w-28 md:h-28 rounded-xl bg-gradient-to-br from-[#ff7a1a] to-[#d46a30] flex items-center justify-center text-white font-bold text-3xl md:text-5xl shadow-lg">
-                    G
-                  </div>
-                </div>
-                <p className="brand-name">GENREVE</p>
+              <div className="hero-brand-block w-10px lg:w10px lg:items-start">
+                <p className="brand-name">Hotel Gen-AI</p>
               </div>
               <h1 className="max-w-xl text-5xl font-semibold leading-[0.98] text-black md:text-6xl lg:text-[76px] lg:text-left">
                 Connect your hotel
@@ -19,12 +14,12 @@ export default function Home() {
                 to AI platforms
               </h1>
               <p className="max-w-xl text-lg text-[#3f3a33] md:text-xl lg:text-left">
-                Connect AI puts your hotel inside ChatGPT and makes your hotel discoverable across every major AI assistant, with verified content, live rates, and direct booking links.
+                Gen-AI puts your hotel inside ChatGPT and makes your hotel discoverable across every major AI assistant, with verified content, live rates, and direct booking links.
               </p>
               <p className="text-xl font-medium text-[#2d2721] md:text-2xl lg:text-left">More direct bookings. Zero Commissions. Full Control.</p>
-              <button className="rounded-full bg-[#ff7a1a] px-7 py-4 text-base font-semibold text-white shadow-[0_18px_35px_rgba(255,122,26,0.32)] transition hover:-translate-y-0.5 hover:bg-[#ff8e3d] md:px-8 md:py-4 md:text-lg lg:self-start">
+              <a href="https://wa.me/918921856969" className="rounded-full bg-[#ff7a1a] px-7 py-4 text-base font-semibold text-white shadow-[0_18px_35px_rgba(255,122,26,0.32)] transition hover:-translate-y-0.5 hover:bg-[#ff8e3d] md:px-8 md:py-4 md:text-lg lg:self-start inline-block">
                 Connect your hotel to AI search
-              </button>
+              </a>
             </div>
             <div className="relative flex w-full max-w-sm items-center justify-center lg:max-w-none">
               <img
@@ -50,7 +45,7 @@ export default function Home() {
             <h2 className="max-w-md text-4xl font-semibold leading-[1.02] text-black md:text-5xl">AI is the new Google moment. Is your hotel AI ready?</h2>
             <p className="mt-6 max-w-xl text-lg leading-8 text-[#3b352e]">ChatGPT has 900 million weekly users, and travelers are already asking AI where to stay. Today, OTAs dominate those answers. Your hotel? Invisible unless you act.</p>
             <p className="mt-5 max-w-xl text-lg leading-8 text-[#3b352e]">Every day without direct presence means lost opportunities. The hotels that show up in AI search today train the recommendations of tomorrow.</p>
-            <p className="mt-5 max-w-xl text-lg leading-8 text-[#3b352e]">Connect AI brings your hotel into AI-powered conversations, connecting your brand directly with guests.</p>
+            <p className="mt-5 max-w-xl text-lg leading-8 text-[#3b352e]">Gen-AI brings your hotel into AI-powered conversations, connecting your brand directly with guests.</p>
           </div>
         </div>
       </section>
@@ -73,7 +68,7 @@ export default function Home() {
           <div className="relative flex min-h-[520px] items-center justify-center rounded-[30px] border border-[#ebe4da] bg-[linear-gradient(180deg,#fffdf9_0%,#f4efe8_100%)] p-6 shadow-[0_20px_50px_rgba(0,0,0,0.08)]">
             <img
               src="https://a.storyblok.com/f/288416513769651/1948x1782/8472c406d1/connect-ai-solution.png/m/1382x0/filters:quality(90):format(webp)"
-              alt="Connect AI platform solution dashboard"
+              alt="Gen-AI platform solution dashboard"
               className="w-full h-auto object-contain"
               style={{ maxWidth: '95%', maxHeight: '95%' }}
               loading="lazy"
@@ -86,7 +81,7 @@ export default function Home() {
         <div className="mx-auto w-full max-w-7xl px-6 lg:px-10 xl:px-0">
           <div className="mx-auto max-w-4xl text-center">
             <h2 className="text-4xl font-semibold tracking-tight text-black md:text-5xl lg:text-[56px]">Everything your hotel needs for AI discovery</h2>
-            <p className="mt-5 text-lg leading-8 text-[#3b352e] md:text-xl">Connect AI unifies your hotel’s content, rates, and brand story into your AI data hub - one trusted source so AI platforms can access accurate, structured data. It then activates your presence across AI channels, while giving you the intelligence to improve your visibility over time.</p>
+            <p className="mt-5 text-lg leading-8 text-[#3b352e] md:text-xl">Gen-AI unifies your hotel's content, rates, and brand story into your AI data hub - one trusted source so AI platforms can access accurate, structured data. It then activates your presence across AI channels, while giving you the intelligence to improve your visibility over time.</p>
           </div>
           <div className="mt-14 space-y-8">
             {[
@@ -100,7 +95,7 @@ export default function Home() {
               },
               {
                 title: 'GEO — Generative Engine Optimization',
-                body: 'AI platforms constantly crawl the open web and what they find shapes their answers. GEO ensures that when AI platforms research your property, they can find accurate, well-structured content, instead of relying on OTA listings or third-party summaries. Connect AI combines technical setup and content optimization to make your hotel website ready for AI discovery.',
+                body: 'AI platforms constantly crawl the open web and what they find shapes their answers. GEO ensures that when AI platforms research your property, they can find accurate, well-structured content, instead of relying on OTA listings or third-party summaries. Gen-AI combines technical setup and content optimization to make your hotel website ready for AI discovery.',
                 panel: 'bg-white text-[#2f2a24]',
                 accent: 'bg-[#fffaf5]',
                 imageSide: 'right',
@@ -159,12 +154,12 @@ export default function Home() {
 
       <section className="bg-[linear-gradient(180deg,#ff8b29_0%,#ff6d16_48%,#fffaf5_48%,#fffaf5_100%)] py-16 lg:py-24">
         <div className="mx-auto w-full max-w-7xl px-6 lg:px-10 xl:px-0">
-          <h2 className="text-center text-4xl font-semibold text-white md:text-5xl">Why hotels choose Connect AI</h2>
+          <h2 className="text-center text-4xl font-semibold text-white md:text-5xl">Why hotels choose Gen-AI</h2>
           <div className="mt-12 grid gap-8 lg:grid-cols-3">
             {[
               ['Unmatched data', 'Largest hospitality data platform with 80,000 hotels in the network - the backbone behind AI distribution.'],
               ['Purpose-built', 'Lighthouse owns the full stack, from data layer to AI platform relationships, without third-party dependency.'],
-              ['Content-first approach', 'Connect AI leads with your brand story and verified content, focusing on what actually drives AI recommendations.'],
+              ['Content-first approach', 'Gen-AI leads with your brand story and verified content, focusing on what actually drives AI recommendations.'],
             ].map(([title, body], idx) => (
               <article key={title} className={`rounded-[28px] border border-white/30 bg-white p-7 shadow-[0_18px_45px_rgba(0,0,0,0.12)] ${idx === 1 ? '-translate-y-6' : ''}`}>
                 <h3 className="text-2xl font-semibold text-black">{title}</h3>
@@ -230,6 +225,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <footer className="bg-[#f5efe7] py-8 text-center">
+        <p className="text-sm text-[rgba(0,0,0,0.7)]">
+          © 2026 Hotel Gen-AI. All Rights Reserved.
+        </p>
+      </footer>
     </main>
   );
 }

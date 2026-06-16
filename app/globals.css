@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root { color-scheme: light; font-family: Inter, Helvetica, Arial, sans-serif; }
+:root { color-scheme: light; font-family: 'Syne', sans-serif; }
 html { scroll-behavior: smooth; }
 body { margin: 0; background: #f5efe7; }
 
@@ -43,11 +45,13 @@ body { margin: 0; background: #f5efe7; }
 .brand-name {
   animation: brandNameFadeUp 1000ms cubic-bezier(0.34, 1.56, 0.64, 1) 200ms forwards;
   opacity: 0;
-  font-size: clamp(2.5rem, 10vw, 7rem);
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
   font-weight: 800;
-  letter-spacing: 0.15em;
-  line-height: 0.9;
+  line-height: 1;
+  white-space: nowrap;
+  text-align: center;
   text-transform: uppercase;
+  letter-spacing: 0.12em;
   color: #000000;
 }
 
