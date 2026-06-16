@@ -6,7 +6,7 @@ export default function Home() {
           <div className="grid items-center gap-10 lg:grid-cols-[1.02fr_0.98fr]">
             <div className="max-w-2xl space-y-8 flex flex-col items-center lg:items-start">
               <div className="hero-brand-block w-10px lg:w10px lg:items-start">
-                <p className="brand-name">Hotel Gen-AI</p>
+                <p className="brand-name">Hotel Connect-AI</p>
               </div>
               <h1 className="max-w-xl text-5xl font-semibold leading-[0.98] text-black md:text-6xl lg:text-[76px] lg:text-left">
                 Connect your hotel
@@ -17,7 +17,7 @@ export default function Home() {
                 Gen-AI puts your hotel inside ChatGPT and makes your hotel discoverable across every major AI assistant, with verified content, live rates, and direct booking links.
               </p>
               <p className="text-xl font-medium text-[#2d2721] md:text-2xl lg:text-left">More direct bookings. Zero Commissions. Full Control.</p>
-              <a href="https://wa.me/918921856969" className="rounded-full bg-[#ff7a1a] px-7 py-4 text-base font-semibold text-white shadow-[0_18px_35px_rgba(255,122,26,0.32)] transition hover:-translate-y-0.5 hover:bg-[#ff8e3d] md:px-8 md:py-4 md:text-lg lg:self-start inline-block">
+              <a href="https://calendly.com/contact-genreve/30min" className="rounded-full bg-[#ff7a1a] px-7 py-4 text-base font-semibold text-white shadow-[0_18px_35px_rgba(255,122,26,0.32)] transition hover:-translate-y-0.5 hover:bg-[#ff8e3d] md:px-8 md:py-4 md:text-lg lg:self-start inline-block">
                 Connect your hotel to AI search
               </a>
             </div>
