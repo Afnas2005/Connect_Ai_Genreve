@@ -4,25 +4,25 @@ export default function Home() {
       <section className="relative overflow-hidden bg-[linear-gradient(135deg,#fffaf5_0%,#f5efe7_45%,#ffe8d5_100%)]">
         <div className="mx-auto flex min-h-screen w-full max-w-7xl flex-col justify-center px-6 py-16 lg:px-10 xl:px-0">
           <div className="grid items-center gap-10 lg:grid-cols-[1.02fr_0.98fr]">
-            <div className="max-w-2xl space-y-8">
-              <div className="flex items-center gap-3">
-                <div className="brand-logo flex-shrink-0">
-                  <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-[#ff7a1a] to-[#d46a30] flex items-center justify-center text-white font-bold text-lg shadow-lg">
+            <div className="max-w-2xl space-y-8 flex flex-col items-center lg:items-start">
+              <div className="hero-brand-block w-full lg:w-auto lg:items-start">
+                <div className="brand-logo">
+                  <div className="w-20 h-20 md:w-28 md:h-28 rounded-xl bg-gradient-to-br from-[#ff7a1a] to-[#d46a30] flex items-center justify-center text-white font-bold text-3xl md:text-5xl shadow-lg">
                     G
                   </div>
                 </div>
-                <p className="brand-name text-sm font-semibold uppercase text-[#d46a30]">GENREVE</p>
+                <p className="brand-name">GENREVE</p>
               </div>
-              <h1 className="max-w-xl text-5xl font-semibold leading-[0.98] text-black md:text-6xl lg:text-[76px]">
+              <h1 className="max-w-xl text-5xl font-semibold leading-[0.98] text-black md:text-6xl lg:text-[76px] lg:text-left">
                 Connect your hotel
                 <br />
                 to AI platforms
               </h1>
-              <p className="max-w-xl text-lg text-[#3f3a33] md:text-xl">
+              <p className="max-w-xl text-lg text-[#3f3a33] md:text-xl lg:text-left">
                 Connect AI puts your hotel inside ChatGPT and makes your hotel discoverable across every major AI assistant, with verified content, live rates, and direct booking links.
               </p>
-              <p className="text-xl font-medium text-[#2d2721] md:text-2xl">More direct bookings. Zero Commissions. Full Control.</p>
-              <button className="rounded-full bg-[#ff7a1a] px-7 py-4 text-base font-semibold text-white shadow-[0_18px_35px_rgba(255,122,26,0.32)] transition hover:-translate-y-0.5 hover:bg-[#ff8e3d] md:px-8 md:py-4 md:text-lg">
+              <p className="text-xl font-medium text-[#2d2721] md:text-2xl lg:text-left">More direct bookings. Zero Commissions. Full Control.</p>
+              <button className="rounded-full bg-[#ff7a1a] px-7 py-4 text-base font-semibold text-white shadow-[0_18px_35px_rgba(255,122,26,0.32)] transition hover:-translate-y-0.5 hover:bg-[#ff8e3d] md:px-8 md:py-4 md:text-lg lg:self-start">
                 Connect your hotel to AI search
               </button>
             </div>
